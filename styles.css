@@ -301,3 +301,27 @@ header::after {
 
 
 
+
+
+
+
+
+
+ul {
+  margin-top: -33rem;
+}
+
+
+  .social-icons {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: wheat;
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: #0093E9;
+  }
+
