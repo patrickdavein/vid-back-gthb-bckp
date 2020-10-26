@@ -1,15 +1,7 @@
-/*
-=============== 
-Fonts
-===============
-*/
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-/*
-=============== 
-Variables
-===============
-*/
+/*Variables*/
 
 :root {
   /* dark shades of primary color*/
@@ -53,11 +45,8 @@ Variables
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-/*
-=============== 
-Global Styles
-===============
-*/
+
+/*Global Styles*/
 
 *,
 ::after,
@@ -135,6 +124,7 @@ p {
     line-height: 1;
   }
 }
+
 /*  global classes */
 
 .btn {
@@ -155,7 +145,9 @@ p {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
 /* section */
+
 .section {
   padding: 5rem 0;
 }
@@ -176,19 +168,8 @@ main {
   place-items: center;
 }
 
+/*Video*/
 
-
-
-
-
-
-
-
-/*
-=============== 
-Video
-===============
-*/
 .preloader {
   position: fixed;
   top: 0;
@@ -234,16 +215,7 @@ h1 {
     color: #0093E9;
 }
 
-
-
-
-
-
-
-
-
-
-/* switch button */
+/*switch button*/
 
 .switch-btn {
   position: absolute;
@@ -282,8 +254,8 @@ h1 {
   left: 50%;
 }
 
-
 /* header after */
+
 header::after {
   content: "";
   position: absolute;
@@ -297,31 +269,24 @@ header::after {
   opacity: .1;
 }
 
-
-
-
-
-
-
-
-
-
+/*icons*/
 
 ul {
   margin-top: -33rem;
 }
 
+.social-icons {
+   display: flex;
+  font-size: 1.5rem;
+  }
 
-  .social-icons {
-    display: flex;
-    font-size: 1.5rem;
+.social-icons a {
+  margin: 0 0.5rem;
+  color: wheat;
+  transition: var(--transition);
   }
-  .social-icons a {
-    margin: 0 0.5rem;
-    color: wheat;
-    transition: var(--transition);
-  }
-  .social-icons a:hover {
-    color: #0093E9;
+
+.social-icons a:hover {
+  color: #0093E9;
   }
 
